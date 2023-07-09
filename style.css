@@ -60,3 +60,40 @@ li a{
     border: none;
     font-size: 15px;
 }
+.service-container{
+    background-image: url("./image/footer-bg.png"),linear-gradient(rgba(0,0,0,10),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+   height: 100vh;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   color: white;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+}
+.icon{
+    width: 70px;
+}
+.box1{
+    text-align: center;
+    padding: 60px;
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.service-para{
+    width: 50%;
+}
+.service-icon{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
