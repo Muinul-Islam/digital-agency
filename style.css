@@ -63,16 +63,16 @@ li a{
 .service-container{
     background-image: url("./image/footer-bg.png"),linear-gradient(rgba(0,0,0,10),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
-   height: 100vh;
-   background-position:center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
-   align-items: center;
-   color: white;
-   align-items: center;
-   justify-content: space-around;
-   padding: 20px;
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 .icon{
     width: 70px;
@@ -80,20 +80,94 @@ li a{
 .box1{
     text-align: center;
     padding: 60px;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background-color: #fff;
     color: black;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 5px;
+    margin: 5px;
 }
 .service-para{
     width: 50%;
+    color: gray;
+
 }
 .service-icon{
     display: flex;
     gap: 5px;
-    margin-top: 5px;
-    margin-right: 20px;
+    margin-top: 7px;
+    margin-right: 25px;
     border-radius: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-info{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    border-right: 2px solid red;
+    padding: 20px;
+}
+.author-container{
+    display: flex;
+}
+.btn3{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    border-radius: 20px;
+}
+.btn4{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+    border-radius: 20px;
+}
+.services-heading{
+    color: gray;
+    padding-bottom: 12px;
+}
+.service-list{
+    margin: 15px;
+    padding: 20px;
+}
+.list{
+    padding: 20px;
+    color: gray;
+}
+.appointment-section button{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+    border-radius: 20px;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.appointment-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin-top: -45px;
 }
